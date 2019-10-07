@@ -7,3 +7,38 @@ Theme Name: Equatorial
 html,body{
     font-family: 'Baloo' !important; 
 }
+
+body{
+    background: #222222 url('./resources/img/intro/balon.png') no-repeat center center;
+    background-size: contain;
+}
+
+#page-intro .header,
+#page-intro .footer{
+    display: none;
+}
+
+html#page-intro,
+html#page-intro body{
+    height: 100%;
+}
+
+.screen-first{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.screen-first h1{
+    color: #fff;
+    font-size: 5vw;
+}
+
+.screen-first h2{
+    color: #fff;
+    font-size: 2vw;
+}
+
+.screen-first h3{
+    color: #fff;
+    font-size: 1vw; 
+}

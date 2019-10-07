@@ -362,16 +362,18 @@ add_action('wp_head', 'equatorial_javascript_detection', 0);
  *
  * @since Twenty Sixteen 1.0
  */
-function equatorial_scripts() { 
-    
+function equatorial_scripts() {
+
+    // bootstrap
+    wp_enqueue_style('bootstrap-4.3.1', get_template_directory_uri() . '/resources/vendors/bootstrap-4.3.1/css/bootstrap.css');
+
     // fonts
     wp_enqueue_style('fonts', get_template_directory_uri() . '/resources/fonts/fonts.css');
     
-    // bootstrap
-    wp_enqueue_style('bootstrap-4.3.1', get_template_directory_uri() . '/resources/vendors/bootstrap-4.3.1/css/bootstrap.css', array('equatorial-style'), '20181230');
-
     // Theme stylesheet.
     wp_enqueue_style('equatorial-style', get_stylesheet_uri());
+
+
 
 
 
@@ -445,6 +447,8 @@ function equatorial_body_classes($classes) {
     if (!is_singular()) {
         $classes[] = 'hfeed';
     }
+
+    $classes[] = 'page-' . str_replace(".php", "", get_page_template_slug());
 
     return $classes;
 }

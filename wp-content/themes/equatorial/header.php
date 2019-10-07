@@ -9,7 +9,7 @@
  * @since Twenty Sixteen 1.0
  */
 ?><!DOCTYPE html>
-<html <?php language_attributes(); ?> class="no-js">
+<html id="page-<?php echo str_replace(".php", "", get_page_template_slug()); ?>" <?php language_attributes(); ?> class="no-js">
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
         <?php wp_head(); ?>
     </head>
 
-    <body <?php body_class(); ?> data-class="page-<?php echo str_replace(".php", "", get_page_template_slug()); ?>">
+    <body <?php body_class(); ?>>
         <?php wp_body_open(); ?>
         <div id="page" class="site">
             <div class="site-inner"> 
