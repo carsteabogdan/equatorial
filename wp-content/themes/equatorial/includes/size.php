@@ -3,7 +3,9 @@
         <p>
             <span class="width"></span> x <span class="height"></span> 
         </p>
-        
+        <p>
+            page-<?php echo str_replace(".php","",get_page_template_slug()); ?>
+        </p>
         <p>
             <?php echo $_SERVER['REMOTE_ADDR']; ?>
         </p>

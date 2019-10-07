@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Baloo';
+    src: url('./Baloo.eot?#iefix') format('embedded-opentype'),  
+        url('./Baloo.woff') format('woff'), 
+        url('./Baloo.ttf')  format('truetype'), 
+        url('./Baloo.svg#Baloo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
