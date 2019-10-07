@@ -51,3 +51,15 @@ html#page-intro body #page .site-inner .site-content{
     background: #222222 url('./resources/img/intro/bg-intro.png') no-repeat left 5% center;
     background-size: auto 120%;
 }
+
+
+html#page-intro,
+html#page-intro body{
+    overflow: hidden;
+}
+.scroll-horizontal{
+    background: #222222 url('./resources/img/intro/bg-intro.png') no-repeat left 5% center;
+    background-size: auto 120%;
+    overflow-x: auto;
+    max-width: 100%;
+}

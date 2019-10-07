@@ -10,8 +10,8 @@ get_header();
     <div class="section-intro h-100">
         <div class="screen-first h-100">
             <div class="container-fluid h-100">
-                <div class="row flex-row flex-nowrap h-100">
-                    <div class="col-12 my-auto">
+                <div class="row flex-row flex-nowrap h-100 scroll-horizontal">
+                    <div class="col-12 my-auto scroll-snap">
                         <h1>Equatorial </h1>
                         <h2>
                             Luăm joaca în serios. 
@@ -26,7 +26,7 @@ get_header();
 
                         </h3>
                     </div>
-                    <div class="col-12 my-auto">
+                    <div class="col-12 my-auto scroll-snap">
                         <h1>Equatorial </h1>
                         <h2>
                             Luăm joaca în serios. 
