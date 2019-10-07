@@ -5,5 +5,5 @@ Theme Name: Equatorial
 
 
 html,body{
-    font-family: 'Baloo';
+    font-family: 'Baloo' !important; 
 }
