@@ -6,9 +6,9 @@
 get_header();
 ?>
 
-<div id="primary" class="content-area">
-    <div class="section-intro">
-        <div class="screen-first">
+<div id="primary" class="content-area h-100">
+    <div class="section-intro h-100">
+        <div class="screen-first h-100">
             <div class="container h-100">
                 <div class="row h-100">
                     <div class="col my-auto">

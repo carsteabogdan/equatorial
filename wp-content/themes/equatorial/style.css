@@ -19,7 +19,10 @@ body{
 }
 
 html#page-intro,
-html#page-intro body{
+html#page-intro body,
+html#page-intro body #page,
+html#page-intro body #page .site-inner,
+html#page-intro body #page .site-inner .site-content{
     height: 100%;
 }
 
