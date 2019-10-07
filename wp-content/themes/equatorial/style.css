@@ -9,8 +9,10 @@ html,body{
 }
 
 body{
+    /*    
     background: #222222 url('./resources/img/intro/balon.png') no-repeat center center;
-    background-size: contain;
+        background-size: contain;
+    */
 }
 
 #page-intro .header,
@@ -26,8 +28,7 @@ html#page-intro body #page .site-inner .site-content{
     height: 100%;
 }
 
-.screen-first{
-    width: 700px;
+.screen-first{ 
     margin: 0 auto;
     text-align: center;
 }
@@ -44,4 +45,9 @@ html#page-intro body #page .site-inner .site-content{
 .screen-first h3{
     color: #fff;
     font-size: 1vw; 
+}
+
+.page-intro{
+    background: #222222 url('./resources/img/intro/bg-intro.png') no-repeat left 5% center;
+    background-size: auto 120%;
 }
