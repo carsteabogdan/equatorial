@@ -35,9 +35,9 @@
         } 
     </style> 
     <script>
-        $(window).on('load resize', function () {
-            $('#windowSize .width').html($(window).width());
-            $('#windowSize .height').html($(window).height());
-        })
+        jQuery(window).on('load resize', function () {
+            jQuery('#windowSize .width').html(jQuery(window).width());
+            jQuery('#windowSize .height').html(jQuery(window).height());
+        });
     </script>      
 <?php } ?>
