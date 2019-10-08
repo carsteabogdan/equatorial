@@ -47,10 +47,10 @@ html#page-intro body #page .site-inner .site-content{
     font-size: 1vw; 
 }
 
-.page-intro{
+/*.page-intro{
     background: #222222 url('./resources/img/intro/bg-intro.png') no-repeat left 5% center;
     background-size: auto 120%;
-}
+}*/
 
 
 html#page-intro,
@@ -58,8 +58,27 @@ html#page-intro body{
     overflow: hidden;
 }
 .scroll-horizontal{
-    background: #222222 url('./resources/img/intro/bg-intro.png') no-repeat left 5% center;
-    background-size: auto 120%;
+    /*    background: #222222 url('./resources/img/intro/bg-intro.svg') no-repeat left 5% center;
+        background-size: auto 120%;*/
     overflow-x: auto;
     max-width: 100%;
+    position: relative;
 }
+.scroll-horizontal .bg-intro{
+    background: #222222;
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;    
+    width: 400vw;
+    overflow: hidden; 
+}
+.scroll-horizontal .bg-intro img{
+    position: absolute;
+    top: 50%;    
+    left: 35%;
+    transform: translate(-50%,-50%);
+    width: 100%; 
+}
+
+ 
